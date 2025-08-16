@@ -2,7 +2,7 @@
 
 Aplicação simples de **lista de tarefas** (to-do) construída com **TypeScript** e empacotada com **Vite**. Ideal para praticar conceitos de estado, manipulação do DOM e organização de componentes/arquivos em uma SPA.
 
-> 🔗 **Demo:** [https://to-do-tawny-gamma.vercel.app/](https://to-do-tawny-gamma.vercel.app/)
+> 🔗 **Demo:** [https://to-do-carlosdancr.vercel.app/](https://to-do-tawny-gamma.vercel.app/)
 
 ![Screenshot da aplicação](./to-do.png)
 
