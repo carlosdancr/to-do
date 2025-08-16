@@ -6,8 +6,6 @@ Aplicação simples de **lista de tarefas** (to-do) construída com **TypeScript
 
 ![Screenshot da aplicação](./to-do.png)
 
----
-
 ## ⚙️ Tecnologias & principais arquivos
 
 - **Vite** (build/dev server) — configuração em `vite.config.ts`
@@ -18,8 +16,6 @@ Aplicação simples de **lista de tarefas** (to-do) construída com **TypeScript
 
 > Dica: Caso esteja usando outro gerenciador, remova o arquivo de lock anterior para evitar conflitos.
 
----
-
 ## 🧰 Pré-requisitos
 
 - **Node.js** 18+ (recomendado)  
@@ -27,8 +23,6 @@ Aplicação simples de **lista de tarefas** (to-do) construída com **TypeScript
   - Yarn `>=1.22`
   - PNPM `>=9`
   - NPM `>=9`
-
----
 
 ## 🚀 Como rodar localmente
 
@@ -55,8 +49,6 @@ npm run dev
 
 A aplicação geralmente sobe em `http://localhost:5173` (porta padrão do Vite).
 
----
-
 ## 🏗️ Build de produção
 
 Gere os arquivos otimizados:
@@ -79,8 +71,6 @@ npm run preview
 
 Os artefatos finais ficarão em `dist/`.
 
----
-
 ## 📦 Estrutura de pastas (resumo)
 
 ```
@@ -97,8 +87,6 @@ to-do/
 
 > Observação: o conteúdo exato de `src/` pode variar; consulte os arquivos para descobrir a organização de componentes e utilitários.
 
----
-
 ## 🌐 Deploy
 
 Este projeto já tem um deploy público na **Vercel** (link na seção “Demo”). Para fazer o seu próprio:
@@ -108,22 +96,15 @@ Este projeto já tem um deploy público na **Vercel** (link na seção “Demo�
 3. **Comando de build:** `vite build` (ou o script do `package.json`).
 4. **Diretório de saída:** `dist`.
 
----
-
 ## 🤝 Contribuição
 
 - Faça um fork, crie uma branch e abra um PR.
 - Siga um padrão de commits (ex.: Conventional Commits) e tente manter mudanças pequenas e focadas.
 - Inclua prints/descrições claras para mudanças visuais.
 
----
-
 ## 📝 Licença
 
-No momento, **não há um arquivo de licença** definido no repositório.  
-Se desejar abrir o código como open-source, considere adicionar um arquivo `LICENSE` (por exemplo, MIT).
-
----
+No momento, **não há um arquivo de licença** definido no repositório.
 
 ## 📣 Contato
 
