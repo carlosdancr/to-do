@@ -69,7 +69,7 @@ pnpm preview   # ou
 npm run preview
 ```
 
-Os artefatos finais ficarão em `dist/`.
+Os arquivos gerados ficarão em `dist/`.
 
 ## 📦 Estrutura de pastas (resumo)
 
@@ -78,7 +78,7 @@ src/
   assets/            # arquivos estáticos do projeto (imagens, ícones, fontes)
   components/        # componentes reutilizáveis de UI (botões, cards, modais, etc.)
   types/             # definições e utilitários de tipos TypeScript globais
-  App.styles.ts      # estilos específicos do App (ex.: styled-components/stitches)
+  App.styles.ts      # estilos específicos do App
   App.tsx            # componente raiz da aplicação (estrutura geral/layout)
   AppContext.tsx     # contexto global da aplicação (providers, estado compartilhado)
   globalStyles.ts    # estilos globais e resets de CSS
@@ -96,18 +96,3 @@ Este projeto já tem um deploy público na **Vercel** (link na seção “Demo�
 2. **Framework Preset:** “Vite”.
 3. **Comando de build:** `vite build` (ou o script do `package.json`).
 4. **Diretório de saída:** `dist`.
-
-## 🤝 Contribuição
-
-- Faça um fork, crie uma branch e abra um PR.
-- Siga um padrão de commits (ex.: Conventional Commits) e tente manter mudanças pequenas e focadas.
-- Inclua prints/descrições claras para mudanças visuais.
-
-## 📝 Licença
-
-No momento, **não há um arquivo de licença** definido no repositório.
-
-## 📣 Contato
-
-- Autor: [@carlosdancr](https://github.com/carlosdancr)
-- Issues e sugestões: abra uma _issue_ no repositório.
