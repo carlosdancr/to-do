@@ -74,15 +74,16 @@ Os artefatos finais ficarão em `dist/`.
 ## 📦 Estrutura de pastas (resumo)
 
 ```
-to-do/
-├─ src/                # código-fonte da aplicação
-├─ index.html          # HTML base
-├─ vite.config.ts      # config do Vite
-├─ tsconfig.json       # config TypeScript do app
-├─ tsconfig.node.json  # config TS para ferramentas
-├─ to-do.png           # screenshot usado no README
-├─ custom.d.ts         # declarações TS auxiliares (se necessário)
-└─ yarn.lock           # lockfile (caso use Yarn)
+src/
+  assets/            # arquivos estáticos do projeto (imagens, ícones, fontes)
+  components/        # componentes reutilizáveis de UI (botões, cards, modais, etc.)
+  types/             # definições e utilitários de tipos TypeScript globais
+  App.styles.ts      # estilos específicos do App (ex.: styled-components/stitches)
+  App.tsx            # componente raiz da aplicação (estrutura geral/layout)
+  AppContext.tsx     # contexto global da aplicação (providers, estado compartilhado)
+  globalStyles.ts    # estilos globais e resets de CSS
+  main.tsx           # ponto de entrada: cria/monta a app React no DOM
+  vite-env.d.ts      # declarações de tipos geradas/auxiliares do Vite
 ```
 
 > Observação: o conteúdo exato de `src/` pode variar; consulte os arquivos para descobrir a organização de componentes e utilitários.
