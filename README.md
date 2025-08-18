@@ -86,8 +86,6 @@ src/
   vite-env.d.ts      # declarações de tipos geradas/auxiliares do Vite
 ```
 
-> Observação: o conteúdo exato de `src/` pode variar; consulte os arquivos para descobrir a organização de componentes e utilitários.
-
 ## 🌐 Deploy
 
 Este projeto já tem um deploy público na **Vercel** (link na seção “Demo”). Para fazer o seu próprio:
